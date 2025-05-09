@@ -5,9 +5,9 @@ namespace Customers.Consumer.Handlers;
 
 public class CustomerDeletedHandler : IRequestHandler<CustomerDeleted>
 {
-    private readonly ILogger<CustomerCreatedHandler> _logger;
+    private readonly ILogger<CustomerDeletedHandler> _logger;
 
-    public CustomerDeletedHandler(ILogger<CustomerCreatedHandler> logger)
+    public CustomerDeletedHandler(ILogger<CustomerDeletedHandler> logger)
     {
         _logger = logger;
     }

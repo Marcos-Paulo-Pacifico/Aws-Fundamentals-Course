@@ -13,7 +13,7 @@ public static class DomainToMessengerMapper
             Email = customer.Email,
             FullName = customer.FullName,
             DateOfBirth = customer.DateOfBirth,
-            GutHubUsername = customer.GitHubUsername
+            GitHubUsername = customer.GitHubUsername
         };
     }
     
@@ -25,7 +25,7 @@ public static class DomainToMessengerMapper
             Email = customer.Email,
             FullName = customer.FullName,
             DateOfBirth = customer.DateOfBirth,
-            GutHubUsername = customer.GitHubUsername
+            GitHubUsername = customer.GitHubUsername
         };
     }
 }

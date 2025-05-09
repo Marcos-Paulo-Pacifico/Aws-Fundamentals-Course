@@ -5,9 +5,9 @@ namespace Customers.Consumer.Handlers;
 
 public class CustomerUpdatedHandler : IRequestHandler<CustomerUpdated>
 {
-    private readonly ILogger<CustomerCreatedHandler> _logger;
+    private readonly ILogger<CustomerUpdatedHandler> _logger;
 
-    public CustomerUpdatedHandler(ILogger<CustomerCreatedHandler> logger)
+    public CustomerUpdatedHandler(ILogger<CustomerUpdatedHandler> logger)
     {
         _logger = logger;
     }
