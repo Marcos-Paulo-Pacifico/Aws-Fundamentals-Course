@@ -11,7 +11,7 @@ var customer = new CustomerCreated
   FullName = "Marcos Paulo Pacifico",
   Email = "paulopacific.pp@gmail.com",
   DateOfBirth = new DateTime(2000, 08, 11),
-  GutHubUsername = "Marcos-Paulo-Pacifico"
+  GitHubUsername = "Marcos-Paulo-Pacifico"
 };
 
 var queueUrlResponse = await sqsClient.GetQueueUrlAsync("customers");

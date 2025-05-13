@@ -1,4 +1,4 @@
-﻿namespace SqsPublisher;
+﻿namespace SnsPublisher;
 
 public class CustomerCreated
 {
