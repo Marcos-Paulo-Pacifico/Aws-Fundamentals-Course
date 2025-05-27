@@ -62,7 +62,7 @@ public class CustomerRepository : ICustomerRepository
             TableName = _tableName,
         };
         var response = await _dynamoDb.ScanAsync(scanRequest);
-        response.Items.Select(x =>
+        return response.Items.Select(x =>
         {
             var json = Document.FromAttributeMap(x).ToJson();
             return JsonSerializer.Deserialize<CustomerDto>(json);
